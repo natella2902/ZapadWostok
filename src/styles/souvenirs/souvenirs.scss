@@ -99,27 +99,28 @@
 
   &__desc {
     color: #6a6a6a;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 30px;
 
   }
   
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     padding-left: 5px;
     position: relative;
     border-left: 2px solid #c94d3f;
     align-self: center;
+    margin-top: 10px;
 
   }
 
   
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: justify;
     margin-bottom: 10px;
@@ -147,8 +148,11 @@
   &__title {
     text-shadow: 1px 1px 1px rgba(0, 1, 3, 0.75);
     color: #ffffff;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 700;
+    margin-right: 15px;
+    text-align: end;
+    
   }
 
   &__container {
@@ -158,7 +162,7 @@
     
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: justify;
     margin-bottom: 10px;
@@ -199,13 +203,13 @@
 .watch {
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     padding: 20px 0 10px;
   }
 
   &__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #c52228;
     text-transform: uppercase;
@@ -213,7 +217,7 @@
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 15px;
     text-align: justify;
@@ -248,13 +252,15 @@
 
   &__title {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     margin-right: 20px;
+    text-align: end;
+    margin-right: 15px;
   }
 
   &__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #c52228;
     text-transform: uppercase;
@@ -262,7 +268,7 @@
 
   &__subtitle2 {
     color: #6a6a6a;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0 10px;
@@ -270,7 +276,7 @@
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
@@ -326,23 +332,15 @@
   &__title {
     text-shadow: 1px 1px 1px rgba(0, 1, 3, 0.75);
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 30px;
+    margin-right: 15px;
     position: relative;
-    
-    &::after {
-      content: "";
-      display: flex;
-      width: 5px;
-      height: 25px;
-      background-color: #f6444a;
-      position: absolute;
-      bottom: 20%;
-      right: -8%;
-
-    }
+    height: 25px;
+    border-right: 3px solid #f6444a; 
+    padding-right: 10px;
+  
 
   }
 
@@ -355,7 +353,7 @@
 
   &__item {
     color: #f6f6f6;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
     position: relative;
@@ -368,15 +366,15 @@
       border-radius: 50%;
       background-color: #f6444a;
       position: absolute;
-      bottom: 5px;
-      right: -15px;
+      bottom: 10px;
+      right: -20px;
 
     }
 
   }
 
   &__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #c52228;
     text-transform: uppercase;
@@ -384,7 +382,7 @@
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 15px;
     text-align: justify;
@@ -405,7 +403,7 @@
   }
 
   &__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #c52228;
     text-transform: uppercase;
@@ -413,7 +411,7 @@
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 15px;
     text-align: justify;
@@ -463,7 +461,7 @@
     display: flex;
     align-items: center;
     color: #6a6a6a;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 400;
     letter-spacing: -0.5px;
     margin: 15px 0;

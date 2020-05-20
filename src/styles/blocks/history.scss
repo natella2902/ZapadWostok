@@ -11,6 +11,10 @@
 
 .history__title {
   color: #777b8e;
+  border-left: 2px solid #c94d3f;
+  padding-left: 10px;
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .tv__pic {
@@ -26,8 +30,14 @@
 
 .history__text {
   text-align: justify;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .history__btn {
   background-color: #c52228;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: 700;
 }

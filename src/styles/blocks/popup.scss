@@ -51,18 +51,14 @@
   fill: transparent;
   stroke: white;
   transition: 0.3s;
-
-  &:hover {
-    stroke: #fa454b
-  }
 }
 
 .menu__title {
-  margin: 15px 0;
+  //margin: 15px 0;
 }
 
 .menu__link {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   cursor: pointer;
 

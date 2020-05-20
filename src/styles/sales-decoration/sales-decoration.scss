@@ -19,14 +19,14 @@
 
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     margin: 15px 0;
   }
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 15.67px;
     text-align: justify;
@@ -48,7 +48,7 @@
 
   &__title {
     color: #4e4e4e;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
@@ -95,7 +95,7 @@
 
   &__subtitle {
     color: #777b8e;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin: 10px;
     position: relative;
@@ -109,7 +109,7 @@
   &__text {
     text-align: justify;
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -148,14 +148,14 @@
 
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     padding: 20px 0 10px;
   }
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 15px;
     text-align: justify;
@@ -191,23 +191,24 @@
 
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     padding: 20px 0 0;
   }
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: justify;
   }
 
   &__subtitle {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     text-align: center;
+    margin: 10px 0 0;
   }
 
   &__image {
@@ -226,12 +227,12 @@
       content: "";
       display: flex;
       position: absolute;
-      width: 280px;
-      height: 280px;
+      width: 260px;
+      height: 260px;
       border: 2px solid #fd3b3e;
       border-radius: 50%;
-      top: -43px;
-      left: -20px;  
+      top: -25px;
+      left: 5px;  
   
     }
   
@@ -275,14 +276,14 @@
 
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     margin: 10px 0;
   }
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
@@ -357,14 +358,14 @@
 
   &__title {
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     margin: 10px 0;
   }
 
   &__subtitle {
     color: #4e4e4e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
@@ -379,7 +380,7 @@
   &__title {
     background-color: white;
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     padding: 10px 0 0;
   }
@@ -391,7 +392,7 @@
 
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
@@ -406,7 +407,7 @@
   &__title {
     background-color: white;
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     margin: 10px;
     padding-right: 10px;
@@ -415,7 +416,7 @@
   }
 
   &__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #c52a30;
     text-transform: uppercase;
@@ -433,7 +434,7 @@
   
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
@@ -446,7 +447,7 @@
   &__title {
     background-color: white;
     color: #777b8e;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     padding: 10px 0;
   }
@@ -471,7 +472,7 @@
   
   &__text {
     color: #4e4e4e;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
