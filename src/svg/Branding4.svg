@@ -8,7 +8,7 @@
 	.st2{fill:#E9ECEB;}
 	.st3{fill:#E2E2E2;}
 	.st4{fill:none;stroke:#E2E2E2;stroke-width:1.4173;stroke-miterlimit:22.9256;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#FFFFFF}
 	.st6{fill:none;stroke:#FFFEFF;stroke-width:2.8347;stroke-miterlimit:22.9256;}
 	.st7{fill:none;stroke:#ECECEC;stroke-width:1.7007;stroke-miterlimit:22.9256;stroke-dasharray:3.4015,5.1022;}
 	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#E61C21;stroke:#FFFEFF;stroke-width:1.9844;stroke-miterlimit:22.9256;}

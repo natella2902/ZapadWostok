@@ -3,19 +3,34 @@
   background-color: #f6f9fb;
   position: relative;
 
-  /*
+  
+  &::after {
+    content: "";
+    width: 300px;
+    height: 350px;
+    display: block;
+    border-radius: 100px;
+    transform: rotate(45deg);
+    background-color:#eaf0f4;
+    position: absolute;
+    top: -275px;
+    left: -10px;
+  }
+  
 
   &::before {
     content: "";
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 350px;
     display: block;
-    border-right: 100px solid red;
+    border-radius: 60px;
+    transform: rotate(45deg);
+    background-color:#eaf0f4;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 25px;
+    right: -175px;
   }
-  */
+  
 }
 
 
