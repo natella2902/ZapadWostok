@@ -20,17 +20,18 @@
 }
 
 .advantage__img {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 
 .advantage__pic {
   width: 60px;
   height: 60px;
-  fill: transparent;
-  stroke-width: 1px;
+  //fill: transparent;
+  //stroke-width: 2px;
   stroke: #d1464d;
   fill-rule: nonzero;
+  fill: #d1464d;
   transition: 1s;
 
 }

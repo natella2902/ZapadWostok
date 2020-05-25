@@ -3,7 +3,7 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 87.5 87.5" style="enable-background:new 0 0 87.5 87.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#100F10;stroke:#201600;stroke-width:0.5669;stroke-miterlimit:22.9256;}
+	.st0{fill-rule=nonzero;clip-rule:evenodd;fill:none;stroke:#000000;stroke-width:0.5669;stroke-miterlimit:22.9256;}
 	.st1{fill:#E9ECEB;}
 	.st2{fill:#E2E2E2;}
 	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
@@ -28,7 +28,7 @@
 	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#D24A43;}
 	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#E8444C;}
 	.st24{fill:none;stroke:#C6C6C6;stroke-width:1.0001;stroke-miterlimit:22.9256;}
-	.st25{fill:#E61C21;}
+	.st25{fill:#E61C21; stroke:#E61C21;}
 	.st26{fill-rule:evenodd;clip-rule:evenodd;fill:#E41C22;}
 	.st27{fill:none;stroke:#F1444C;stroke-miterlimit:10;}
 	.st28{fill:none;stroke:#F1444C;stroke-width:2.1099;stroke-miterlimit:10;}

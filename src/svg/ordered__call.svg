@@ -17,7 +17,7 @@
 	.st11{fill:#DC7D43;}
 	.st12{fill:#201600;}
 	.st13{fill:#D24A43;}
-	.st14{fill:#B6B8BD;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFEFF;stroke:#FFFEFF}
 	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFEFF;}
 	.st16{fill:#E62A13;}
 	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#E62A13;}
