@@ -17,6 +17,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
+  
+  &:last-child {
+    margin-bottom: 0;  
+  }
 }
 
 .advantage__img {
