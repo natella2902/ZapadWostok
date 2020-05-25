@@ -92,10 +92,17 @@
   &__icon {
     width: 40px;
     height: 40px;
-    fill: transparent;
+    fill:  #f6444a;
     stroke: white;
-    stroke-width: 3px;
+
   } 
+
+  &__icon2 {
+    width: 40px;
+    height: 40px;
+    fill: white; 
+  }
+
 
   &__desc {
     color: #6a6a6a;
