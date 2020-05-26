@@ -47,7 +47,8 @@
     fill: #3e4858;
     fill-rule: nonzero;
     transition: 1s;
-
+        
     &:hover {
-        stroke: red;    }
+        fill: red;
+    }
 }

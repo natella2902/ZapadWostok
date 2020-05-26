@@ -257,6 +257,10 @@ footer::after {
   stroke: transparent;
   fill-rule: evenodd;
 
+  &:hover {
+    fill: red;
+  }
+
 }
 
 .contacts__icon {
