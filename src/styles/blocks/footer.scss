@@ -253,18 +253,21 @@ footer::after {
 .soc__icon {
   width: 17px;
   height: 17px;
-  fill: transparent;
-  stroke: white;
+  fill: white;
+  stroke: transparent;
   fill-rule: evenodd;
 
-  &--vk {
-    fill: white;
-    stroke: transparent;
-    stroke-width: 1px;
-  }
 }
 
 .contacts__icon {
+  width: 17px;
+  height: 17px;
+  fill: red;
+  stroke: transparent;
+  fill-rule: evenodd;
+}
+
+.contacts__icon2 {
   width: 17px;
   height: 17px;
   fill: transparent;
