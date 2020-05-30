@@ -59,12 +59,11 @@
 	.st53{fill-rule:evenodd;clip-rule:evenodd;fill:#5C768B;}
 	.st54{fill:#D24A43;}
 	.st55{fill:none;stroke:#D24A43;stroke-width:2.8347;stroke-miterlimit:22.9256;}
-	.st56{fill-rule:evenodd;clip-rule:evenodd;fill:#D24A43;}
+	.st56{fill-rule:evenodd;clip-rule:evenodd;fill:#D24A43;stroke:#D24A43;}
 	.st57{fill-rule:evenodd;clip-rule:evenodd;fill:#E61C21;stroke:#E51921;stroke-width:1.77;stroke-miterlimit:22.9256;}
 	.st58{fill:none;stroke:#E51921;stroke-width:1.3224;stroke-miterlimit:22.9256;stroke-dasharray:2.6447,3.9671;}
 	.st59{fill:none;stroke:#D24A43;stroke-width:2.126;stroke-miterlimit:22.9256;}
 </style>
-<polygon class="st0" points="-1005.3,1598.9 -1005.3,-620.9 1135.4,-620.9 1135.4,1598.9 -1005.3,1598.9 "/>
 <g>
 	<g>
 		<path class="st57" d="M1.4,19.4l18-18c0.7-0.7,1.8-0.7,2.5,0L40,19.5c0.7,0.7,0.7,1.8,0,2.5l-18,18c-0.7,0.7-1.8,0.7-2.5,0
