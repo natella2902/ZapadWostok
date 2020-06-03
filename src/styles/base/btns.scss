@@ -43,6 +43,17 @@
 
 }
 
+.container-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 20px;
+  position: absolute;
+  bottom: 0;
+
+}
+
 .circle-btn {
   border: 1px solid #c52228;
   border-radius: 50%;
@@ -50,7 +61,13 @@
   width: 12px;
   background: #fff;
 
-  &--active {
-    background: #c52228;
-  }
+  margin-right: 5px;
+  
+    &.active {
+      background: #c52228;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
 }
