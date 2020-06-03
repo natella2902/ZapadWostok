@@ -55,10 +55,11 @@
 }
 
 .circle-btn {
+  display: block;
   border: 1px solid #c52228;
   border-radius: 50%;
-  min-height: 13px;
-  min-width: 12px;
+  height: 13px;
+  width: 12px;
   background: #fff;
 
   margin-right: 5px;
