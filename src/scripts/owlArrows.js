@@ -1,12 +1,25 @@
-$(document).ready(function(){
-  $('.owlArrows').owlCarousel({
+$(document).ready(function () {
+
+
+  const owl = $('.owlArrows').owlCarousel({
     items: 1,
-    center:true,
-    nav:true,
-    loop:true,
+    center: true,
+    loop: true,
+    nav: false,
     dots: false,
-    dotsClass: 'container-dots',
-    dotClass: 'circle-btn'
+    navContainerClass: 'slider-btns',
+    navClass: 'slider-btn'
 
   });
+
+  $('.slider-btn--prev').click(function () {
+    owl.trigger('prev.owl.carousel');
+  })
+
+  $('.slider-btn--next').click(function () {
+    owl.trigger('next.owl.carousel');
+  })
+
+
+
 });

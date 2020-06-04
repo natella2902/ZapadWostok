@@ -10,9 +10,14 @@
 
   &__slider {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: flex-start;
+    align-items: flex-end;
     flex: 1;
+  }
+
+  &__page {
+    margin-top: 15px;
   }
 
   &__title {
@@ -55,6 +60,7 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    align-self: flex-end;
     color: #6c6c6c;
 
     .vacancy-btn {

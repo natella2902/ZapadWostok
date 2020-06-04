@@ -60,7 +60,7 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: justify;
-  
+
 
   }
 
@@ -78,6 +78,8 @@
     justify-content: flex-start;
     align-items: center;
     height: 120px;
+    position: relative;
+    z-index: 5;
 
     &-svg {
       width: 120px;
@@ -88,73 +90,34 @@
       margin-left: -3%;
       z-index: 10;
     }
-/*
-    &--right {
-      margin-right: 0;
-      margin-left: 10px;
-
-      &:before {
-        content: "";
-        position: absolute;
-        width: 69%;
-        height: 73%;
-        top: 21%;
-        left: 7%;
-        background-color: #f6f6f6;
-        z-index: 0;
-      }
-
-      &:after {
-        content: "";
-        color: #fff;
-        font-size: 16px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        transform: rotate(45deg);
-        width: 30px;
-        height: 30px;
-        top: 6%;
-        left: 68%;
-        background-color: #c41f25;
-        z-index: 10;
-      }
-    }
 
     &--left {
       &:before {
         content: "";
         position: absolute;
-        width: 69%;
-        height: 73%;
-        top: 21%;
-        left: 22%;
-        background-color: #f6f6f6;
-        z-index: 0;
-      }
-
-      &:after {
-        content: "";
-        color: #fff;
-        font-size: 16px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        transform: rotate(45deg);
-        width: 30px;
-        height: 30px;
-        top: 6%;
-        left: 6%;
-        background-color: #c41f25;
-        z-index: 10;
+        z-index: -1;
+        left: 25%;
+        right: 5%;
+        top: 25%;
+        bottom: 5%;
+        background-color: rgb(238, 239, 244);
       }
     }
 
-*/
+    &--right {
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 5%;
+        right: 23%;
+        top: 25%;
+        bottom: 5%;
+        background-color: rgb(238, 239, 244);
+      }
+    }
+
+
 
   }
 

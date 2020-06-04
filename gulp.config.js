@@ -4,8 +4,8 @@ module.exports = {
   STYLES_LIBS: [
     'node_modules/normalize.css/normalize.css',
     'node_modules/bxslider/dist/jquery.bxslider.css',
-    'node_modules/owl.carousel/dist/assets/owl.carousel.css'
-
+    'node_modules/owl.carousel/dist/assets/owl.carousel.css',
+    'node_modules/owl.carousel/dist/assets/owl.theme.default.css'
   ],
   JS_LIBS: [
     'node_modules/jquery/dist/jquery.min.js',
