@@ -49,6 +49,7 @@
 
   &__page {
     margin-bottom: 7px;
+    width: 100vw;
   }
 
   &__page,
@@ -63,4 +64,9 @@
     width: 100%;
     max-width: 480px;
   }
+}
+
+
+.roof__list .container-dots {
+  bottom: -20px;
 }
