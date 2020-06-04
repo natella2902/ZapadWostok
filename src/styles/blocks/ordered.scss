@@ -10,18 +10,18 @@
     justify-content: center;
     margin-top: 50px;
     position: relative;
+  }
 
-    &::after{
-      content: "";
-      display: block;
-      width: 40px;
-      height: 40px;
-      background: url(./pictures/cross-top.png) no-repeat;
-      position: absolute;
-      right: 10px;
-      top: -25px;
-    
-    }
+  
+  .orderedBtn-closed {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(./pictures/cross-top.png) no-repeat;
+    position: absolute;
+    right: 10px;
+    top: -24px;
+  
   }
 
   &__title {
