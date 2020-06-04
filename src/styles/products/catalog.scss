@@ -32,6 +32,9 @@
 
   &__page {
     margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   &__desc {

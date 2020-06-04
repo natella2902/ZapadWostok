@@ -58,22 +58,48 @@
   display: block;
   border: 1px solid #c52228;
   border-radius: 20px;
+  min-height: 14px;
+  max-height: 14px;
   height: 13px;
   width: 10px;
   background: #fff;
 
   margin-right: 5px;
-  
-    &.active {
-      background: #c52228;
-    }
 
-    &:last-child {
-      margin-right: 0;
-    }
+  &.active {
+    background: #c52228;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 
 .ts-metall__list {
   position: relative;
-} 
+}
+
+.slider-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.disabled {
+    display: none;
+  }
+}
+
+.slider-btn,
+.s,
+.l {
+  border: 1px solid transparent;
+  background-color: transparent;
+  filter: grayscale(0);
+  opacity: 1;
+
+  &.disabled {
+    filter: grayscale(1);
+    opacity: .5;
+  }
+}

@@ -2,8 +2,7 @@
   min-height: 100vh;
   background: url('./pictures/serv-prod.png') no-repeat center center;
   background-size: contain;
-  background-color:  #647489;
-  opacity: 0.67;
+  background-color: #647489;
   overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
@@ -21,7 +20,7 @@
   opacity: 0.67;
   position: relative;
 
-  
+
   &:before {
     content: "";
     width: 240px;
@@ -52,7 +51,7 @@
 
 .title__serv-prod {
   color: #ffffff;
-  
+
 }
 
 .serv-prod__desc {
@@ -63,7 +62,7 @@
   padding-top: 10px;
 }
 
-.serv-prod__list {
+.serv-prod__page {
   display: flex;
   justify-content: space-evenly;
 }
@@ -78,6 +77,3 @@
 .serv-prod__call {
   color: #c52228;
 }
-
-
-
