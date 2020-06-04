@@ -1,8 +1,6 @@
 
 .portfo {
   min-height: 100vh;
-  background: url('./pictures/portf.png') no-repeat center center;
-  background-size: contain;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -12,6 +10,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.portfo__midle {
+  background: url('./pictures/portf.png') no-repeat center center;
+  background-size: cover;
+  display: block;
+  width: 100vw;
+  height: 350px;
 }
 
 .title__portfo {
